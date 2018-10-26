@@ -57,7 +57,9 @@ public class ChangePasswordActivity extends AppCompatActivity
             }
         });
     }
-
+    private void chngPw(){
+        System.out.prinln("This function does not change the password");
+    }
     private void changePassword()
     {
         Log.d("database", "changePassword");
